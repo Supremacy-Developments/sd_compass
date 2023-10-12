@@ -4,7 +4,7 @@ local lastCrossroadUpd = 0
 local compassOn = false
 local lastCompassHeading = "0"
 
-RegisterNetEvent("esx:playerLoaded", function()
+RegisterNetEvent("sd_compass", function()
     showCompass()
 end)
 
