@@ -1,3 +1,6 @@
+$(function() {
+    $.post('https://sd_compass/uiReady');
+});
 
 window.addEventListener('message', (event) => {
     const data = event.data
